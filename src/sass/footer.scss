@@ -1,5 +1,4 @@
 .footer-wrap {
-
   margin: 0 auto;
   padding-top: 42px;
   padding-left: 65px;
@@ -13,9 +12,8 @@
     position: relative;
   }
 
-  @media (min-width: 1440px) {}
-
-
+  @media (min-width: 1440px) {
+  }
 }
 
 // --------- footer
@@ -29,60 +27,42 @@
   width: 101px;
 }
 
-
 .adress-wrap__items_margin-adres {
   margin-bottom: 20px;
   width: 172px;
 
   @media (min-width: 1440px) {
     width: 189px;
-
-
   }
-
 }
 
-
 .adress-wrap {
-
-
   @media (min-width: 768px) {
-
     display: flex;
     justify-content: space-between;
-
   }
-
 }
 
 .adress-wrap__items_margin-tell {
   width: 128px;
-
 }
 
 .adress-wrap__tm-wrap {
   margin-bottom: 33px;
 }
 
-
 .but-soc {
-
   @media (min-width: 768px) {
-
     width: 192px;
     display: flex;
     flex-wrap: wrap;
-
   }
 
   @media (min-width: 1440px) {
     flex-wrap: nowrap;
     justify-content: space-between;
     width: 518px;
-
-
   }
-
 }
 
 .but-soc__butt {
@@ -95,21 +75,16 @@
   cursor: pointer;
 
   @media (min-width: 768px) {
-
     margin-bottom: 0;
-
   }
-
 }
 
 .but-soc__soc-wrap {
   display: flex;
 
   @media (min-width: 768px) {
-
     margin: 0 auto;
     padding-top: 5px;
-    
   }
 }
 
@@ -136,7 +111,6 @@
   position: absolute;
   opacity: 0;
 
-
   @media (min-width: 768px) {
     opacity: 1;
     right: 43px;
@@ -148,7 +122,6 @@
     right: 32px;
     top: 176px;
   }
-
 }
 
 // --------- ligal
@@ -159,37 +132,27 @@
   padding-bottom: 19px;
 
   @media (min-width: 768px) {
-
     padding-left: 0;
-
   }
 }
 
 .footer-container {
   display: block;
   margin: 0 auto;
-  width: 281px;
+  width: 240px;
 
   @media (min-width: 768px) {
-
     width: 620px;
-
-
   }
 
   @media (min-width: 1440px) {
-
     width: 1300px;
-
   }
 }
 
 .footer-position {
-
   @media (min-width: 1440px) {
-
     width: 1152px;
-
   }
 }
 
@@ -200,9 +163,7 @@
   }
 
   @media (min-width: 1440px) {
-
     width: 1300px;
-
   }
 }
 
@@ -214,9 +175,7 @@
   }
 
   @media (min-width: 1440px) {
-
     width: 634px;
-
   }
 }
 
@@ -226,7 +185,6 @@
   font-family: 'Ubuntu Bold', 'Cyrillic Ubuntu Bold';
   color: rgb(150, 153, 166);
   line-height: 1.786;
-
 }
 
 .but-soc__butt {
@@ -234,9 +192,7 @@
   font-family: 'Open Sans Bold', 'Cyrillic Open Sans Bold';
   color: rgb(246, 249, 250);
   font-weight: bold;
-
 }
-
 
 .ligal__item {
   font-size: 12px;
@@ -246,10 +202,6 @@
 }
 
 .adress-wrap__tm-wrap_color {
-  
-    
-    color: rgb(150, 154, 168);
-    text-decoration: none;
-    
-  
+  color: rgb(150, 154, 168);
+  text-decoration: none;
 }
