@@ -1,0 +1,3 @@
+- npm start
+- and
+- open browser in http://localhost:8080/
